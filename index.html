@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextGen Web Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">NextGen</div>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#brand">Solutions</a></li>
+      <li><a href="#parallax">Innovation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero">
+    <h1>Transforming Ideas into Digital Reality</h1>
+    <p>We build modern, scalable, and user-focused web applications that deliver real value.</p>
+    <button class="ripple">Explore Services</button>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Core Features</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Performance</h3>
+        <p>Optimized for speed and seamless interaction across all platforms.</p>
+      </div>
+      <div class="card">
+        <h3>Responsiveness</h3>
+        <p>Fully responsive designs that adapt beautifully to every screen size.</p>
+      </div>
+      <div class="card">
+        <h3>Security</h3>
+        <p>Robust authentication and encryption to keep your data safe.</p>
+      </div>
+      <div class="card">
+        <h3>Scalability</h3>
+        <p>Built to grow with your business without compromising performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Kit Switcher Section -->
+  <section id="brand">
+    <h2>Solutions We Offer</h2>
+    <div class="switcher">
+      <button onclick="switchKit('web')">Web Development</button>
+      <button onclick="switchKit('design')">UI/UX Design</button>
+      <button onclick="switchKit('ecommerce')">E-Commerce</button>
+    </div>
+    <div id="kit-display">
+      <p>Choose a solution to learn more.</p>
+    </div>
+  </section>
+
+  <!-- Parallax Innovation Section -->
+  <section id="parallax">
+    <div class="parallax-bg"></div>
+    <div class="content">
+      <h2>Innovation Through Design</h2>
+      <p>We implement cutting-edge features such as animations, accessibility tools, and adaptive interfaces to enhance user experience and engagement.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p>Have a project in mind? We'd love to hear from you. Let’s create something amazing together!</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="text" placeholder="Subject" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
